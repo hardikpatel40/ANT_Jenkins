@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="136164" started-at="2014-09-09T11:30:46Z" finished-at="2014-09-09T11:33:02Z">
+    <groups>
+    </groups>
+    <test name="Monster Test" duration-ms="136164" started-at="2014-09-09T11:30:46Z" finished-at="2014-09-09T11:33:02Z">
+      <class name="Testing">
+        <test-method status="PASS" signature="before()[pri:0, instance:Testing@a6343d]" name="before" is-config="true" duration-ms="9386" started-at="2014-09-09T17:00:46Z" finished-at="2014-09-09T17:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Google()[pri:0, instance:Testing@a6343d]" name="Google" duration-ms="14886" started-at="2014-09-09T17:00:55Z" finished-at="2014-09-09T17:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+        <test-method status="PASS" signature="Yahoo()[pri:0, instance:Testing@a6343d]" name="Yahoo" duration-ms="111876" started-at="2014-09-09T17:01:10Z" finished-at="2014-09-09T17:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Yahoo -->
+      </class> <!-- Testing -->
+    </test> <!-- Monster Test -->
+  </suite> <!-- TestAll -->
+</testng-results>

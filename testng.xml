@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestAll">
+ 
+  <test name="Monster Test">
+	
+	<classes>
+		<class name="Testing" />
+		
+	</classes>
+  </test>
+  
+  
+ 
+</suite>
