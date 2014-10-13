@@ -1,0 +1,35 @@
+c:/users/umarao
+mkdir .ssh
+cd .ssh
+ssh-Keygen -t rsa -C "varma@gmail.com"
+ssh -v git@github.com
+"after the above commond it will show known_hosts"
+
+settings >> SSHkeys > paste the key from  id_rsa.pub
+
+copy .ssh folder to c:\progfiles\git\
+
+open command prompt
+
+go to c:\progfiles\git\bin
+
+ssh.exe -T git@github.com
+
+again go to gitbash...
+
+go to the directory which project you want to upload(cd E:\\ssss\\kkk\\Module7)
+
+pwd -- now we are in module7
+
+..create a repository in github like MYREPOSITY
+
+
+
+git init
+NOW YOU CAN SEE .GIT IN project(module7)git -- you can play remaining commands
+
+
+git add .
+git commit -m "initial upload"
+git remote add origin https://github.com/varma/uma.git
+git push -u origin master
